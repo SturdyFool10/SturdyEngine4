@@ -1,0 +1,203 @@
+[
+  {
+    "label": "[Win] Configure (Ninja): Debug",
+    "command": "cmd",
+    "args": [
+      "/c",
+      "scripts\\win\\configure.bat",
+      "Debug"
+    ],
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "reveal": "always",
+    "allow_concurrent_runs": true,
+    "use_new_terminal": false
+  },
+  {
+    "label": "[Win] Configure (Ninja): Release",
+    "command": "cmd",
+    "args": [
+      "/c",
+      "scripts\\win\\configure.bat",
+      "Release"
+    ],
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "reveal": "always",
+    "allow_concurrent_runs": true,
+    "use_new_terminal": false
+  },
+  {
+    "label": "[Win] Build: All (Debug)",
+    "command": "cmd",
+    "args": [
+      "/c",
+      "scripts\\win\\build.bat",
+      "Debug"
+    ],
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "reveal": "always",
+    "allow_concurrent_runs": true,
+    "use_new_terminal": false
+  },
+  {
+    "label": "[Win] Build: All (Release)",
+    "command": "cmd",
+    "args": [
+      "/c",
+      "scripts\\win\\build.bat",
+      "Release"
+    ],
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "reveal": "always",
+    "allow_concurrent_runs": true,
+    "use_new_terminal": false
+  },
+  {
+    "label": "[Win] Build: Engine (Debug)",
+    "command": "cmd",
+    "args": [
+      "/c",
+      "scripts\\win\\build.bat",
+      "Debug",
+      "engine"
+    ],
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "reveal": "always",
+    "allow_concurrent_runs": true,
+    "use_new_terminal": false
+  },
+  {
+    "label": "[Win] Build: Runtime (Debug)",
+    "command": "cmd",
+    "args": [
+      "/c",
+      "scripts\\win\\build.bat",
+      "Debug",
+      "runtime"
+    ],
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "reveal": "always",
+    "allow_concurrent_runs": true,
+    "use_new_terminal": false
+  },
+  {
+    "label": "[Win] Run: Runtime (Debug)",
+    "command": "cmd",
+    "args": [
+      "/c",
+      "scripts\\win\\run-runtime.bat",
+      "Debug"
+    ],
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "reveal": "always",
+    "allow_concurrent_runs": false,
+    "use_new_terminal": false
+  },
+  {
+    "label": "[Win] Clean: build outputs",
+    "command": "cmd",
+    "args": [
+      "/c",
+      "scripts\\win\\clean.bat"
+    ],
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "reveal": "always",
+    "allow_concurrent_runs": false,
+    "use_new_terminal": false
+  },
+  {
+    "label": "[Unix] Configure (Ninja): Debug",
+    "command": "bash",
+    "args": [
+      "-lc",
+      "./scripts/unix/configure.sh Debug"
+    ],
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "reveal": "always",
+    "allow_concurrent_runs": true,
+    "use_new_terminal": false
+  },
+  {
+    "label": "[Unix] Configure (Ninja): Release",
+    "command": "bash",
+    "args": [
+      "-lc",
+      "./scripts/unix/configure.sh Release"
+    ],
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "reveal": "always",
+    "allow_concurrent_runs": true,
+    "use_new_terminal": false
+  },
+  {
+    "label": "[Unix] Build: All (Debug)",
+    "command": "bash",
+    "args": [
+      "-lc",
+      "./scripts/unix/build.sh Debug"
+    ],
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "reveal": "always",
+    "allow_concurrent_runs": true,
+    "use_new_terminal": false
+  },
+  {
+    "label": "[Unix] Build: All (Release)",
+    "command": "bash",
+    "args": [
+      "-lc",
+      "./scripts/unix/build.sh Release"
+    ],
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "reveal": "always",
+    "allow_concurrent_runs": true,
+    "use_new_terminal": false
+  },
+  {
+    "label": "[Unix] Build: Engine (Debug)",
+    "command": "bash",
+    "args": [
+      "-lc",
+      "./scripts/unix/build.sh Debug engine"
+    ],
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "reveal": "always",
+    "allow_concurrent_runs": true,
+    "use_new_terminal": false
+  },
+  {
+    "label": "[Unix] Build: Runtime (Debug)",
+    "command": "bash",
+    "args": [
+      "-lc",
+      "./scripts/unix/build.sh Debug runtime"
+    ],
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "reveal": "always",
+    "allow_concurrent_runs": true,
+    "use_new_terminal": false
+  },
+  {
+    "label": "[Unix] Run: Runtime (Debug)",
+    "command": "bash",
+    "args": [
+      "-lc",
+      "./scripts/unix/run-runtime.sh Debug"
+    ],
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "reveal": "always",
+    "allow_concurrent_runs": false,
+    "use_new_terminal": false
+  },
+  {
+    "label": "[Unix] Clean: build outputs",
+    "command": "bash",
+    "args": [
+      "-lc",
+      "./scripts/unix/clean.sh"
+    ],
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "reveal": "always",
+    "allow_concurrent_runs": false,
+    "use_new_terminal": false
+  }
+]

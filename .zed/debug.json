@@ -1,0 +1,18 @@
+[
+  {
+    "label": "[Win] Debug Runtime (CodeLLDB)",
+    "adapter": "CodeLLDB",
+    "request": "launch",
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "program": "$ZED_WORKTREE_ROOT/build/bin/runtime.exe",
+    "build": "[Win] Build: Runtime (Debug)"
+  },
+  {
+    "label": "[Unix] Debug Runtime (CodeLLDB)",
+    "adapter": "CodeLLDB",
+    "request": "launch",
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "program": "$ZED_WORKTREE_ROOT/build/bin/runtime",
+    "build": "[Unix] Build: Runtime (Debug)"
+  }
+]
