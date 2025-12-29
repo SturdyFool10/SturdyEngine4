@@ -1,4 +1,5 @@
-#include <print>
+#include <core/test.hpp>
+
 int main() {
-    std::println("Hello World!");
+    test(8);
 }
