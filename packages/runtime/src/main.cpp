@@ -1,5 +1,5 @@
 #include <core/test.hpp>
 
-int main() {
+auto main() -> int {
     test(8);
 }
