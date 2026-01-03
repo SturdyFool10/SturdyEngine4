@@ -1,0 +1,30 @@
+{
+  "file_types": {
+    "C++": [
+      "cpp",
+      "cc",
+      "cxx",
+      "c++",
+      "cp",
+      "c",
+
+      "hpp",
+      "hh",
+      "hxx",
+      "h++",
+      "hp",
+      "h",
+
+      "cppm",
+      "cxxm",
+      "ccm",
+      "c++m",
+      "ixx",
+      "mpp",
+      "mpl",
+      "ipp",
+      "tpp",
+      "inl",
+    ],
+  },
+}

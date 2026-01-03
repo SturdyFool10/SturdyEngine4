@@ -1,7 +1,5 @@
 #pragma once
-
 #include <cstdint>
-
 //==============================================================================
 // SE OS macros (presence-style: #ifdef SE_OS_WINDOWS)
 // - You may also define any SE_OS_* macro yourself via the build system to
