@@ -2,5 +2,13 @@
 libs/**
 include/**
 .cache/
+
+# CMake build dir (default)
 build/
-.zed/config.json
+
+# CMake generated junk (in case someone builds elsewhere)
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/Makefile
+**/compile_commands.json
